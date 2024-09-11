@@ -1,5 +1,7 @@
 # PasswordManager
 
+== This is written as a reminder for self and is temporary ==
+
 ## Concepts/Libraries To Be Used
 1. cryptography for saving users passwords
 2. hashlib for secure login system
