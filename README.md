@@ -7,12 +7,6 @@
  - encrypted passwords will be saved locally on the users system and the encryption key will be saved on the server for enhanced security
  - bonus idea: implement the ability to store passwords directly from the CSV file obtained from google password manager
 
-## Basic Working
- - PasswordManager.py will manage CRUD operations (including encryption/decryption) of the users saved passwords
- - UserManager.py will handle the login system and will be responsible for salting/peppering of login passwords of new accounts
- - main.py will have the menu loop, will use PasswordManager, UserManager and rich to perform the required functions
- - the data will be stored in SQL database with 2 tables, one for passwords and other for users
-
 ## Concepts/Libraries To Be Used
 1. cryptography for saving users passwords
 2. hashlib for secure login system
