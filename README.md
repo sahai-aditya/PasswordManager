@@ -13,4 +13,4 @@
 3. sqlite3 for storing data
 4. sockets to implement the server client idea
 5. rich for the ui
-6. getpsas to get login password from user without echo
+6. getpass to get login password from user without echo
